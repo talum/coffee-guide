@@ -47,6 +47,13 @@ p{
   background-size: cover;
   color:#fff;
 }
+#coffee-8{
+  background-color:#3f3f3f;
+  padding:5vh;
+}
+#coffee-8 p{
+  margin:0;
+}
 .section{
   height:80vh;
   padding:20vh;
