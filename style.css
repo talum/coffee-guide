@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  padding:0;
+  text-align: center;
+  color:#fff;
+}
+
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+  margin:0;
+}
+h1{
+  font-size: 10em;
+}
+h2{
+  font-size: 2.5em;
+}
+p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.25em;
+}
+#coffee-1{
+  background: url(img/coffee1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#coffee-2, #coffee-6{
+  background-color: #000;
+}
+#coffee-3{
+  background: url(img/coffee3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#coffee-3{
+  color:#3f3f3f;  
+}
+#coffee-4{
+  background-color: #3f3f3f;
+}
+#coffee-5{
+  background: url(img/coffee4.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color:#000; 
+}
+#coffee-7{
+  background: url(img/coffee5.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color:#fff;
+}
+.section{
+  height:80vh;
+  padding:20vh;
+}
+.columns{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+.container{
+  position:relative;
+  max-width: 600px;
+  margin:0 auto;
+  width:100%;
+  padding:20px;
+}
